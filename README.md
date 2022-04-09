@@ -53,6 +53,7 @@ Getting packages and debuging with Eslint
 - JS
 - HTML
 - CSS
+- webpack
 
 
 ### Run tests
