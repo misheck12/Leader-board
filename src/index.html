@@ -14,7 +14,7 @@
   <section class="first-section">
     <div class="score-header d-flex">
         <h2>Recent scores</h2>
-        <button type="submit">refresh</button>
+        <button id="refresh" type="submit">refresh</button>
     </div>
       <div class="ul" id="ul">
           <ul class="scores" id="scores">
@@ -28,8 +28,8 @@
           <h1>Add your score</h1>
         </div>
         <form id="form" class="d-flex">
-          <input type="text" id="first-input" name="first_task" placeholder=" your name">
-          <input type="text" id="input" name="new_task" placeholder="your score">
+          <input type="text" id="name" name="first_task" placeholder=" your name">
+          <input type="number" id="score" name="new_task" min="1" max="1000" placeholder="your score">
           <button class="submit" type="submit" title="submit">Submit</button>
         </form>
     </section>
